@@ -1,0 +1,33 @@
+//
+//  Header1.pch
+//  Shoping
+//
+//  Created by qianfeng on 16/1/13.
+//  Copyright © 2016年 boge. All rights reserved.
+//
+
+#ifndef Header1_pch
+#define Header1_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SWIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+//广告视图
+#define GGPATH @"http://cloud.repaiapp.com/yunying/spzt.php?app_id=1664340785&app_oid=fa71c7146c61db212921bb7407b3762e&app_version=2.1&app_channel=iphoneappstore&shce=boluomi"
+
+//商品的 tableview  page 可加载
+#define SPPATH @"http://zhekou.repaiapp.com/shop/discount/api/list.php?app_id=1664340785&app_oid=fa71c7146c61db212921bb7407b3762e&app_version=2.1&app_channel=iphoneappstore&shce=boluomi&page=1"
+//#define NVPATH @"http://zhekou.repaiapp.com/shop/discount/api/list.php?app_id=1664340785&app_oid=fa71c7146c61db212921bb7407b3762e&app_version=2.1&app_channel=iphoneappstore&shce=boluomi&sort=2&page=1"
+
+
+//分类
+#define FLPATH @"http://zhekou.repai.com/lws/view/zhou_if2.php"
+
+//好货
+#define HHPATH @"http://zhekou.repai.com/jkjby/view/rp_b2c_list_v5.php?limit=100&app_id=1664340785&app_oid=fa71c7146c61db212921bb7407b3762e&app_version=2.1&app_channel=iphoneappstore&shce=boluomi"
+
+#endif /* Header1_pch */
